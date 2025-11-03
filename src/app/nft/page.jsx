@@ -7,6 +7,7 @@ export default function Home() {
   const [loading, setLoading] = useState(false);
   const [txHash, setTxHash] = useState("");
 
+  
   const handleMint = async () => {
     setLoading(true);
     setTxHash("");
